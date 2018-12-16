@@ -1,10 +1,9 @@
+
 import matplotlib.pyplot as plt
 import csv 
 from datetime import datetime
 
-
-
-filename = 'sitka_weather_07-2014.csv'
+filename = "./csv/sitka_weather_07-2014.csv"
 
 with open(filename) as f:
     reader = csv.reader(f)
@@ -35,10 +34,11 @@ with open(filename) as f:
     fig.autofmt_xdate()
     plt.ylabel('temptuer(F)', fontsize = 16)
     plt.tick_params(axis='both', which='major', labelsize = 15)
+    plt.savefig('tempture.png',bbox_inches='tight')
     plt.show()
 
 
-    print(hights)
+    print(highs)
 
 
 
