@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-
+import csv
 from random_walker import RandomWalk 
 
 while True: 
