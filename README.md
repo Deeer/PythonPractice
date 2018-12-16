@@ -18,4 +18,4 @@
 
 ## worldmap
 ![](https://github.com/Deeer/pythonPractice/blob/master/wordmap/americas.svg)
-![](https://github.com/Deeer/pythonPractice/blob/master/wordmap/na_populations.py)
+![](https://github.com/Deeer/pythonPractice/blob/master/wordmap/americas_populations.svg)
